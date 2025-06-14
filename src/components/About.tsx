@@ -17,43 +17,45 @@ const About = () => {
             </div>
 
             {/* Info Card */}
-            <div className="mt-12 grid grid-cols-1 md:grid-cols-2 gap-8 items-center bg-white dark:bg-gray-800 rounded-xl shadow-lg p-8 transition-all">
-            <div className="space-y-6 text-gray-800 dark:text-gray-200">
-                <h3 className="text-2xl font-semibold">
-                I'm Faizan, a Full Stack Developer
-                </h3>
-                <p className="text-lg">
-                I'm committed to writing clean, maintainable code and following
-                best practices. I enjoy tackling complex problems and continuously
-                learning new technologies to stay at the forefront of web
-                development.
-                </p>
+            <div className="mt-12 grid grid-cols-1 md:grid-cols-2 gap-10 items-center bg-white dark:bg-gray-800 rounded-xl shadow-lg p-8 transition-all">
+                <div className="space-y-6 text-gray-800 dark:text-gray-200">
+                    <h3 className="text-3xl font-bold">
+                    I'm Faizan, a Full Stack Developer
+                    </h3>
+                    <p className="text-base sm:text-lg leading-relaxed">
+                    I'm currently pursuing my B.Tech in Computer Science and Engineering.
+                    I’m passionate about building efficient, scalable web applications
+                    and committed to writing clean, maintainable code by following best
+                    practices. I enjoy solving complex problems and continuously
+                    learning new technologies to stay at the forefront of web development.
+                    </p>
 
-                {/* Icons */}
-                <div className="grid grid-cols-2 gap-6 pt-4">
-                <div className="flex flex-col items-center gap-2">
-                    <FaBriefcase className="w-10 h-10 text-blue-600 dark:text-cyan-400" />
-                    <span className="text-sm">Fresher</span>
+                    {/* Icon Grid */}
+                    <div className="grid grid-cols-2 gap-6 pt-4">
+                    <div className="flex flex-col items-center gap-2">
+                        <FaBriefcase className="w-10 h-10 text-blue-600 dark:text-cyan-400" />
+                        <span className="text-sm font-medium">Fresher</span>
+                    </div>
+                    <div className="flex flex-col items-center gap-2">
+                        <FaProjectDiagram className="w-10 h-10 text-blue-600 dark:text-cyan-400" />
+                        <span className="text-sm font-medium">8+ Projects</span>
+                    </div>
+                    <div className="flex flex-col items-center gap-2">
+                        <FaUsers className="w-10 h-10 text-blue-600 dark:text-cyan-400" />
+                        <span className="text-sm font-medium">2+ Collaborations</span>
+                    </div>
+                    <div className="flex flex-col items-center gap-2">
+                        <FaAward className="w-10 h-10 text-blue-600 dark:text-cyan-400" />
+                        <span className="text-sm font-medium">Fast Learner</span>
+                    </div>
+                    </div>
                 </div>
-                <div className="flex flex-col items-center gap-2">
-                    <FaProjectDiagram className="w-10 h-10 text-blue-600 dark:text-cyan-400" />
-                    <span className="text-sm">8+ Projects</span>
-                </div>
-                <div className="flex flex-col items-center gap-2">
-                    <FaUsers className="w-10 h-10 text-blue-600 dark:text-cyan-400" />
-                    <span className="text-sm">2+ collaborations</span>
-                </div>
-                <div className="flex flex-col items-center gap-2">
-                    <FaAward className="w-10 h-10 text-blue-600 dark:text-cyan-400" />
-                    <span className="text-sm">Achievements</span>
-                </div>
-                </div>
-            </div>
 
-            {/* Side Icon */}
-            <div className="flex justify-center md:justify-end">
-                <FaCode className="w-28 h-28 text-blue-600 dark:text-cyan-400" />
-            </div>
+                <div className="flex justify-center items-center">
+                    <div className="w-44 h-44 sm:w-64 sm:h-64 rounded-full border-4 border-blue-600  shadow-[0_0_40px_rgba(59,130,246,0.35)]  dark:border-blue-600 hover:scale-105 transition-transform dark:shadow-blue-900 flex items-center justify-center ">
+                        <FaCode className="w-24 h-24 sm:w-36 sm:h-36 text-blue-700 dark:text-blue-600" />
+                    </div>
+                </div>
             </div>
         </div>
         </section>

@@ -61,21 +61,21 @@ const projects = [
                 >
                 <div>
                     <img
-                    src={project.src}
-                    alt={project.title}
-                    className="rounded-lg mb-4 w-full h-auto object-cover transition-transform transform hover:scale-105"
+                        src={project.src}
+                        alt={project.title}
+                        className="rounded-lg mb-4 w-[60%] ml-10  md:w-full md:ml-0 h-auto object-cover transition-transform transform hover:scale-105"
                     />
                     <h3 className="text-lg font-bold text-gray-900 dark:text-white mb-2">
-                    {project.title}
+                        {project.title}
                     </h3>
                     <p className="text-sm text-gray-700 dark:text-gray-300 mb-4">
-                    {project.description}
+                        {project.description}
                     </p>
                     <div className="flex flex-wrap gap-2 mb-4">
                     {project.tech.map((tech, i) => (
                         <span
-                        key={i}
-                        className="text-xs bg-blue-100 text-blue-700 dark:bg-blue-800 dark:text-blue-100 px-2 py-1 rounded-md font-medium"
+                            key={i}
+                            className="text-xs bg-blue-100 text-blue-700 dark:bg-blue-800 dark:text-blue-100 px-2 py-1 rounded-md font-medium"
                         >
                         {tech}
                         </span>
